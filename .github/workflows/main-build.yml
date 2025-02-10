@@ -11,7 +11,7 @@ env:
 
 concurrency:
   group: java-agent-main-build
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 permissions:
   id-token: write
